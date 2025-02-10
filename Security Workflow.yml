@@ -2,9 +2,7 @@ name: Security Workflow
 on:
   push:
     branches:
-      - master
-  pull_request:
-    types: [opened, synchronize, reopened]
+      - main
 jobs:
   sonarqube:
     name: SonarQube
